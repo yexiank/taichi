@@ -1,0 +1,9 @@
+project-root/
+├── index.html
+├── style.css
+├── script.js
+├── taichi.png
+└── ttcc/
+    ├── file1.txt
+    ├── file2.jpg
+    └── ...
