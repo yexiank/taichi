@@ -42,7 +42,8 @@ header nav {
 }
 
 #search-input {
-  width: 400px; /* 进一步增大搜索框宽度 */
+  width: 100%; /* 使搜索框在小屏幕上占满宽度 */
+  max-width: 400px; /* 进一步增大搜索框宽度 */
   padding: 12px;
   font-size: 18px;
   border: 2px solid #fff; /* 使用白色边框 */
@@ -74,7 +75,7 @@ main {
 
 #resource-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* 调整网格项的最小宽度 */
   gap: 20px;
 }
 
