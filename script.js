@@ -5,7 +5,7 @@ const resourceList = document.getElementById('resource-list');
 const resources = [
   { name: '电脑激活软件.rar', type: 'rar' },
   { name: 'Hummingbird-M-Update-Tool.zip', type: 'zip' },
-  { name: '黄昏听钟.txt', type: 'txt' },
+  { name: '黄昏听钟.docx', type: 'docx' },
   // 可以继续添加更多文件
 ];
 
