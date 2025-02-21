@@ -3,7 +3,7 @@ const resourceList = document.getElementById('resource-list');
 
 // 手动更新这个数组来匹配 ttcc 文件夹里的实际文件
 const resources = [
-  { name: '桌面.png', type: 'png' },
+  { name: '电脑激活软件.rar', type: 'rar' },
   { name: 'Hummingbird-M-Update-Tool.zip', type: 'zip' },
 
   // 可以继续添加更多文件
